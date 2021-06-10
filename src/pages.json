@@ -1,0 +1,45 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/home",
+				"iconPath": "static/images/component.png",
+				"selectedIconPath": "static/images/componentHL.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/home",
+				"iconPath": "static/images/component.png",
+				"selectedIconPath": "static/images/componentHL.png",
+				"text": "课程"
+			}, {
+				"pagePath": "pages/home",
+				"iconPath": "static/images/component.png",
+				"selectedIconPath": "static/images/componentHL.png",
+				"text": "订单"
+			}, {
+				"pagePath": "pages/home",
+				"iconPath": "static/images/component.png",
+				"selectedIconPath": "static/images/componentHL.png",
+				"text": "我的"
+			}
+		]
+	}
+}
